@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Astrology Website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Astrology Data</h1>
+  <form id="astro-form">
+    <label for="coordinates">Coordinates (latitude,longitude):</label>
+    <input type="text" id="coordinates" placeholder="e.g., 23.1765,75.7885" required>
+    <label for="datetime">Date & Time:</label>
+    <input type="datetime-local" id="datetime" required>
+    <button type="submit">Get Astrology Data</button>
+  </form>
+
+  <div id="result"></div>
+
+  <script src="script.js"></script>
+</body>
+</html>
